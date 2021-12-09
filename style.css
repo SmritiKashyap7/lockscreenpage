@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#main {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://source.unsplash.com/random");
+  background-size: cover;
+  background-position: center;
+  z-index: 99;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+#timeshow {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  /* background-color: yellow; */
+  font-size: 50px;
+  color: rgb(24, 24, 24);
+  margin-bottom: 2%;
+  letter-spacing: 5px;
+}
+#day {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  /* background-color: yellow; */
+  font-size: 50px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+#second {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(65, 105, 225, 0.404);
+  position: absolute;
+  top: 100%;
+  left: 0%;
+}
+
+#blurred {
+  height: 100%;
+  width: 100%;
+  /* background-color: yellow; */
+}
+#blurred img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(8px);
+  /* border: 5px solid black; */
+}
+#center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 250px;
+  width: 200px;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#center i {
+  font-size: 180px;
+}
+#center h1 {
+  font-weight: 200;
+  letter-spacing: 5px;
+}
+#pass {
+  height: 30px;
+  width: 180px;
+}
+#third {
+  height: 100%;
+  width: 100%;
+  background-image: url("desktopview.png");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0%;
+  left: -100%;
+}
