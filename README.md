@@ -1,4 +1,5 @@
 you can directly see how it work at  https://smritikashyap7.github.io/lockscreenpage/
+passcode is 8103
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/SmritiKashyap7/lockscreenpage/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
